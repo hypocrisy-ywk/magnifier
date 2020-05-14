@@ -68,11 +68,13 @@
     var box = document.querySelector('.box');
     var small = document.querySelector('.small');
     var big = document.querySelector('.big');
-    var bigimg = document.querySelector('.big').querySelector('img')
+    var bigimg = document.querySelector('.big').querySelector('img');
+
     box.addEventListener('mouseover', function () {
         small.style.display = 'block';
         big.style.display = 'block';
     });
+
     box.addEventListener('mouseout', function () {
         small.style.display = 'none';
         big.style.display = 'none';
